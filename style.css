@@ -34,7 +34,7 @@ h1 {
     display: flex;
 }
 
-.nav-li {
+.nav-ul {
     display: inline-block;
     padding: 0 10px;
 }
