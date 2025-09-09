@@ -27,14 +27,14 @@ h1 {
     margin: 0;
 }
 
-#nav-ul {
+#nav-li {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.nav-ul {
+.nav-li {
     display: inline-block;
     padding: 0 10px;
 }
@@ -124,7 +124,7 @@ h2, h3 {
 
   #all-contents {
     height: 100ch;
-    margin: none;
+    margin: 0;
   }
 
   a {
