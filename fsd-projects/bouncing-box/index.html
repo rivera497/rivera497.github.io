@@ -78,19 +78,19 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        var postionX = 0;
+        var positionX = 0;
 
         function update() {
-          postionX += speed;
-          moveBoxTo(postionX); // Moves box to x-position 200
- if (postionX > boardwidth) {
+          positionX += speed;
+          moveBoxTo(positionX); // Moves box to x-position 200
+ if (positionX > boardwidth) {
     speed *= -1;
     }
-    if (positionX <0) {
-          speed *= -1;
+    if (positionX < 0) {
+      speed *= -1;
       }
-        }
-          
+         }
+
         /**
          * This Function will be called each time the box is clicked.
          * Each time it is called, it should perform each of the following actions:
