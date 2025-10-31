@@ -84,9 +84,10 @@
           positionX += speed;
           moveBoxTo(positionX); // Moves box to x-position 200
  if (positionX > boardwidth) {
-    speed *= -1;
+  speed = speed * -1; 
+  speed *= -1;
     }
-    if (positionX < 0) {
+    else if (positionX < 0) {
       speed *= -1;
       }
          }
